@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 
 #Cargamos el modelo
 import pickle
-filename = './sample_data/modelo-reg.pkl'
+filename = 'modelo-reg.pkl'
 modelo, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
 
 #Cargamos los datos futuros
